@@ -15,7 +15,9 @@ This project is designed for advertising and awareness, making it easy to showca
 
 ## 🎯 Purpose
 
-The main goal is to advertise [https://premier-lotto-babaijebu-results.visuallottoboard.com/](https://premier-lotto-babaijebu-results.visuallottoboard.com/) and make more people aware of its content and services.  
+The initial version of this slideshow is dedicated to the **Visual Lotto Board**.  
+A general-purpose GUI version will be released soon, so everyone can easily customize their own slideshow.
+
 This project can be used on:
 
 - Office screens

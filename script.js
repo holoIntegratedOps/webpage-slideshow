@@ -13,7 +13,6 @@ const iframes = urls.map(url => {
 });
 
 let index = 0;
-// const interval = 5000;
 const interval = 60000;
 
 function showNext() {
