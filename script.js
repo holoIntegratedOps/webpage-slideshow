@@ -1,7 +1,7 @@
 const urls = [
     "https://premier-lotto-babaijebu-results.visuallottoboard.com/",
     "https://premier-lotto-babaijebu-results.visuallottoboard.com/frequent-number.html",
-    "https://lottoclassificationchart.visuallottoboard.com/"
+    "https://lottoclassificationchart.visuallottoboard.com/",
     "https://www.holointegratedops.site/webpage-slideshow/pages/forecast.html"
 ];
 
