@@ -19,3 +19,89 @@ iframe {
 iframe.active {
     display: block;
 }
+
+.gameName {
+    color: gold;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px black, 0 0 25px red, 0 0 40px orange;
+    margin-bottom: 40px;
+    margin-bottom: 10%;
+}
+
+.casino-background {
+    background: radial-gradient(circle at center, #111 0%, #000 100%);
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 120px;
+}
+
+
+.container div {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    background: linear-gradient(145deg, #222, #111);
+    box-shadow: 
+        0 0 10px rgba(255, 215, 0, 0.8), /* golden glow */
+        0 0 20px rgba(255, 0, 0, 0.7),   /* red glow */
+        inset 0 0 10px rgba(255, 255, 255, 0.2); /* inner shine */
+    text-shadow: 
+        0 0 5px #fff, 
+        0 0 10px #ff0, 
+        0 0 20px #f00, 
+        0 0 40px #ff0;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+    animation: flicker 2s infinite alternate;
+}
+
+.container div:hover {
+    transform: scale(1.2) rotate(-3deg);
+    box-shadow: 
+        0 0 20px rgba(255, 255, 0, 1), 
+        0 0 40px rgba(255, 0, 0, 1), 
+        inset 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        opacity: 1;
+        text-shadow: 
+            0 0 5px #fff, 
+            0 0 10px #ff0, 
+            0 0 20px #f00, 
+            0 0 40px #ff0;
+    }
+    20%, 24%, 55% {
+        opacity: 0.5;
+        text-shadow: none;
+    }
+}
+
+.two-sure {
+    color: aqua;
+}
+
+.active-glow {
+    transform: scale(1.2) rotate(-3deg);
+    box-shadow: 
+        0 0 20px rgba(255, 255, 0, 1), 
+        0 0 40px rgba(255, 0, 0, 1), 
+        inset 0 0 20px rgba(255, 255, 255, 0.3);
+}

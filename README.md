@@ -36,6 +36,8 @@ This project can be used on:
 
 - The slideshow will automatically start cycling through the URLs.
 
+*⚠️ Note: This version is currently configured for internal advertising use (Visual Lotto Board). Future updates will allow broader customization.*
+
 ## 🌐 Live Website
 
 👉 Visit: [https://premier-lotto-babaijebu-results.visuallottoboard.com/](https://premier-lotto-babaijebu-results.visuallottoboard.com/)

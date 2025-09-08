@@ -2,6 +2,7 @@ const urls = [
     "https://premier-lotto-babaijebu-results.visuallottoboard.com/",
     "https://premier-lotto-babaijebu-results.visuallottoboard.com/frequent-number.html",
     "https://lottoclassificationchart.visuallottoboard.com/"
+    "https://www.holointegratedops.site/webpage-slideshow/pages/forecast.html"
 ];
 
 const container = document.getElementById("slides");
@@ -24,3 +25,21 @@ function showNext() {
 
 showNext();
 setInterval(showNext, interval);
+
+document.addEventListener("DOMContentLoaded", () => {
+    const numbers = document.querySelectorAll(".container div");
+
+    function randomGlow() {
+        numbers.forEach(num => num.classList.remove("active-glow"));
+
+        const randomNum = numbers[Math.floor(Math.random() * numbers.length)];
+        randomNum.classList.add("active-glow");
+
+        setTimeout(() => {
+            randomNum.classList.remove("active-glow");
+        }, 800);
+    }
+
+
+    setInterval(randomGlow, 1500);
+});
