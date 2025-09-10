@@ -3,10 +3,15 @@ const urls = [
     "https://premier-lotto-babaijebu-results.visuallottoboard.com/frequent-number.html",
     "https://lottoclassificationchart.visuallottoboard.com/",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "https://www.holointegratedops.site/webpage-slideshow/pages/ads.html",
 =======
 >>>>>>> 96ba34b0932272de1628e63677b90481f4a97388
     "https://www.holointegratedops.site/webpage-slideshow/pages/forecast.html"
+=======
+    "https://www.holointegratedops.site/webpage-slideshow/pages/ads.html"
+    // "https://www.holointegratedops.site/webpage-slideshow/pages/forecast.html"
+>>>>>>> ola-development
 ];
 
 const container = document.getElementById("slides");
