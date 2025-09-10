@@ -2,13 +2,15 @@ const urls = [
     "https://premier-lotto-babaijebu-results.visuallottoboard.com/",
     "https://premier-lotto-babaijebu-results.visuallottoboard.com/frequent-number.html",
     "https://lottoclassificationchart.visuallottoboard.com/",
-    "https://www.holointegratedops.site/webpage-slideshow/pages/forecast.html"
+    "https://www.holointegratedops.site/webpage-slideshow/pages/ads.html"
+    // "https://www.holointegratedops.site/webpage-slideshow/pages/forecast.html"
 ];
 
 const container = document.getElementById("slides");
 const iframes = urls.map(url => {
     const frame = document.createElement("iframe");
     frame.src = url;
+    frame.className = "slide-frame"
     container.appendChild(frame);
     return frame;
 });
