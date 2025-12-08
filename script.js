@@ -2,9 +2,9 @@ const urls = [
     "https://premier-lotto-babaijebu-results.visuallottoboard.com/",
     "https://premier-lotto-babaijebu-results.visuallottoboard.com/frequent-number.html",
     "https://lottoclassificationchart.visuallottoboard.com/",
-    "https://www.holointegratedops.site/webpage-slideshow/pages/ads.html",
-    "https://www.holointegratedops.site/webpage-slideshow/pages/announcement.html"
-    // "https://www.holointegratedops.site/webpage-slideshow/pages/forecast.html"
+    "https://projects.holointegratedops.site/webpage-slideshow/pages/ads.html",
+    "https://projects.holointegratedops.site/webpage-slideshow/pages/announcement.html"
+    // "https://projects.holointegratedops.site/webpage-slideshow/pages/forecast.html"
 ]
 
 // slide function
